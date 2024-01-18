@@ -31,11 +31,22 @@ Exemplos de imagens PGM para testes -> (https://people.sc.fsu.edu/~jburkardt/dat
 
 Imagem original 
 
+<img src="./exemplos_png/barbara.png" width="250" height="250"> </img>
 
 Imagem Limiarizada
 
+<img src="./exemplos_png/barbara_limiar.png" width="250" height="250"> </img>
+
+-> A limiarização consiste em separar os grupos de cinza de uma imagem. Determina-se uma intensidade de cinza (limiar) que separa as partes da imagem, formando grupos de pixels com intensidades parecidas. Os valores aceitos são de 0 (iamgem totalmente branca) a 256 (imagem totalmente preta).
+
 Imagem Invertida
+
+<img src="./exemplos_png/barbara_invertido.png" width="250" height="250"> </img>
 
 Imagem Espelhada Horizontalmente
 
+<img src="./exemplos_png/barbara_espelhado_horizontal.png" width="250" height="250"> </img>
+
 Imagem Espelhada Verticalmente
+
+<img src="./exemplos_png/barbara_espelhado_vertical.png" width="250" height="250"> </img>
