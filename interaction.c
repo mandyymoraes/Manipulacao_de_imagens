@@ -125,6 +125,7 @@ int main(int argc, char *argv[])
 
                 free_img(&image);
                 fclose(pgm);
+                printf("Download realizado!")
             }
 
             else
@@ -158,6 +159,7 @@ int main(int argc, char *argv[])
 
                 free_img(&image);
                 free_inverted_img(&inverted_img);
+                printf("Download realizado!")
             }
             else
             {
@@ -188,6 +190,7 @@ int main(int argc, char *argv[])
 
                 free_img(&image);
                 fclose(pgm);
+                printf("Download realizado!")
             }
 
             else
@@ -221,6 +224,7 @@ int main(int argc, char *argv[])
 
                 free_img(&image);
                 fclose(pgm);
+                printf("Download realizado!")
             }
 
             else
