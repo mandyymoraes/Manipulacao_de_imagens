@@ -5,10 +5,10 @@
 
 void error_msg()
 {
-    printf("--------------------- Helper para o usuário --------------------------------");
+    printf("--------------------- Helper para o usuário --------------------------------\n");
     printf("Compile o codigo : gcc list_img.c user.c -o img \n");
     printf("Rode e insira as imagens a serem adicionadas as listas: img image_name.pgm image_name.pgm ... \n");
-    printf("Aviso: arquivos com extensões diferentes de .pgm não são ac  \n");
+    printf("Aviso: arquivos com extensoes diferentes de .pgm nao sao aceitos  \n");
     printf("-----------------------------------------------------------------------------");
 }
 
@@ -161,7 +161,7 @@ int main(int argc, char *argv[])
             }
             else
             {
-                printf("Arquivo não lido!.\n");
+                printf("Arquivo nao lido!.\n");
             }
         }
         break;
@@ -231,7 +231,7 @@ int main(int argc, char *argv[])
     }
     break;
     default:
-        printf("Opção invalida!");
+        printf("Opcao invalida!");
     }
     //libera a memória da lista 
     free_list(image_list);
