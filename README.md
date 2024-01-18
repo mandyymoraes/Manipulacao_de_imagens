@@ -20,12 +20,14 @@ Digite no terminal da pasta do projeto -> <code> gcc fuctions.c interaction.c -o
 
 E depois digite <code> manipulacao_imagens </code>
 
-### Compilador e Imagens para testes
+### Recursos
 
 Compilador C MinGW -> [MinGW](https://sourceforge.net/projects/mingw/)
 
 
 Exemplos de imagens PGM para testes -> (https://people.sc.fsu.edu/~jburkardt/data/pgma/pgma.html)
+
+Aplicativo para a abertura das imagens <code> .pgm </code> -> [GIMP](https://www.gimp.org/downloads/)
 
 ### Outputs
 
